@@ -7,16 +7,27 @@
 
 .libertadores{
     color: darkgreen;
+    cursor: pointer; /* muda o curso do mouse*/ 
+    
+    
+
     
 }
 
 .copa{
     color: coral;
+    cursor: pointer; /* muda o curso do mouse*/
+    
     
 }
 
 .rebaixamento{
     color: crimson;
+    cursor: pointer; /* muda o curso do mouse*/
   
+}
+
+.copa-2{
+    cursor: pointer; /* muda o curso do mouse*/
 }
 

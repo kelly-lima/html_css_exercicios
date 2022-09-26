@@ -1,0 +1,17 @@
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+
+.box1{
+    
+    
+    padding: 0; /* pode cresce a div*/
+    margin: 0;
+    
+}
+
+.box2{
+    padding:0
+}

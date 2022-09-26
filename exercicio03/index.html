@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <img src="img/light-logo.png" alt="Logo da Solcode">
+
+
+    <div>
+        <img src="img/light-logo.png" alt="Logo da Solcode">
+    </div>
     <h3>Bem-Vindo! Entre com o email e senha.</h3>
 
     <form>
@@ -23,20 +28,21 @@
             <label for="campoSenha">Senha</label><br>
             <input id="campoSenha" name="campoSenha" type="password" minlength="8" required>
         </div>
-        <hr>
 
-        <button type="submit">Login</button><br>
+
+        <button class="botao" type="submit">Login</button><br>
 
 
         <input type="checkbox" name="continuarConectado" />
         <label for="checkConectado">Continuar conectado?</label><br>
 
     </form>
+    <hr>
     <br><br>
 
-    <table border="1" cellpadding="10" style="border-collapse: collapse;">
+    <table class="tab">
 
-        <thead>
+        <thead class="tab0">
 
             <th>Custo</th>
             <th>Bolsa Integral</th>
@@ -74,6 +80,11 @@
         </tbody>
 
     </table>
+
+
+
+
+
 
 
 </body>
