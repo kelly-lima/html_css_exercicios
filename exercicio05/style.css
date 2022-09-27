@@ -1,7 +1,11 @@
+
+
+
+
 body{
-    background-color: #e5b4bb;
-    
-    
+    background-color:#f5f4a8;
+    margin: 0;
+     
   
 }
 
@@ -15,6 +19,12 @@ p{
     display: flex; /*faz os elementos ficarem lado a lado*/
     justify-content: center; /* centraliza os elementos na horizontal */
     align-items: center; 
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+   
+    
    
     
 
@@ -25,9 +35,10 @@ p{
     box-shadow: 7px 7px 13px 0px; /*  dar sombreamento aos elementos*/
     padding: 30px; /* espaçamento interno do elemento*/
     margin: 20px; /*espaçamento externo*/
-    width: 400px; /*largura*/
+    width: 200px; /*largura*/
     transition: all 0.3s ease-out; /*efeito de animação*/
-    background-color: #ead9d4;
+    background-color: #6a9a7a;
+    
     
 }
 
@@ -35,15 +46,16 @@ p{
     width: 200px; /* largura*/
     height: 400px; /* altura*/
     border-radius: 5px;
-
+    
 }
 
 
 /* mudanças de estado da pagina(hover:flutuar) */
 .card:hover{
     transform: translateY(-10px); /*muda o movimento quando passa o mouse (y pq muda na vertical)*/
-    background-color: #edede3; /*muda a cor quando passa o mouse*/
+    background-color:  #d4cdc0; /*muda a cor quando passa o mouse*/
     cursor: pointer; /* muda o curso do mouse*/  
+   
 }
 
 .card h2{

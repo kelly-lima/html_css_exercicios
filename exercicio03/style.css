@@ -1,4 +1,18 @@
+.img{
+    background-color:#0F637A ;
+    
+}
 
+
+.formulario , h3  {
+    display: flex;
+    justify-content:center; 
+    align-content: center;
+    margin-top: 6px;
+    padding-right: 10px;
+    
+    
+}
 
 .bolsa{
     color: rgb(16, 84, 211);
@@ -8,13 +22,16 @@
 
 
 .botao{
-    margin-top: 5px;
-    
+    justify-content:space-around ;
+     
+}
+
+.table, th, td{
+    border: 1px solid black;
+    margin: auto;
+    cursor: pointer;
     
 }
 
-.tab{
-    border-color: black;
-    background: orange;
 
-}
+

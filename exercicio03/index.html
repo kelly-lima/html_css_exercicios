@@ -13,36 +13,44 @@
 
 
     <div>
-        <img src="img/light-logo.png" alt="Logo da Solcode">
+
+        <div class="formulario img">
+            <img src="img/light-logo.png" alt="Logo da Solcode">
+        </div>
+
+        <form>
+            <h3>Bem-Vindo! Entre com o email e senha.</h3>
+
+            <div class="formulario">
+                <label class="formulario" for="campoEmail">Email</label> <br>
+                <input id="campoEmail" name="campoEmail" type="email" required>
+
+            </div>
+
+            <div class="formulario">
+                <label class="formulario" for="campoSenha">Senha</label><br>
+                <input id="campoSenha" name="campoSenha" type="password" minlength="8" required>
+            </div>
+
+            <div class="formulario botao">
+                <button class="formulario" type="submit">Login</button>
+            </div>
+
+            <div class="formulario">
+                <input type="checkbox" name="continuarConectado" />
+                <label for="checkConectado">Continuar conectado?</label>
+            </div>
+
+        </form>
+
     </div>
-    <h3>Bem-Vindo! Entre com o email e senha.</h3>
 
-    <form>
-        <div>
-            <label for="campoEmail">Email</label> <br>
-            <input id="campoEmail" name="campoEmail" type="email" required>
-
-        </div>
-
-        <div>
-            <label for="campoSenha">Senha</label><br>
-            <input id="campoSenha" name="campoSenha" type="password" minlength="8" required>
-        </div>
-
-
-        <button class="botao" type="submit">Login</button><br>
-
-
-        <input type="checkbox" name="continuarConectado" />
-        <label for="checkConectado">Continuar conectado?</label><br>
-
-    </form>
     <hr>
     <br><br>
 
     <table class="tab">
 
-        <thead class="tab0">
+        <thead>
 
             <th>Custo</th>
             <th>Bolsa Integral</th>
