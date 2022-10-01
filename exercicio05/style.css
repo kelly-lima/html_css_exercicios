@@ -1,67 +1,56 @@
 
-
-
-
-body{
-    background-color:#f5f4a8;
-    margin: 0;
-     
-  
+body {
+    text-align: center;
+    background-color: rgba(0,0,0,0.466);
+    background-image: url(img/bela-galaxia-de-cor-vermelha.jpeg);  
 }
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 
 p{
     text-align: center;
+    font-size: 20px;
+    text-align:center;
+    
 }
 
 
-
-.principal{
+.container{
     display: flex; /*faz os elementos ficarem lado a lado*/
     justify-content: center; /* centraliza os elementos na horizontal */
     align-items: center; 
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-   
-    
-   
-    
+  
 
 }
 
 .card {
-    border-radius: 5px; /* Deixa a borda levemente arredondada*/
+    border-radius: 10px; /* Deixa a borda levemente arredondada*/
     box-shadow: 7px 7px 13px 0px; /*  dar sombreamento aos elementos*/
-    padding: 30px; /* espaçamento interno do elemento*/
     margin: 20px; /*espaçamento externo*/
-    width: 200px; /*largura*/
+    width: 300px; /*largura*/
     transition: all 0.3s ease-out; /*efeito de animação*/
-    background-color: #6a9a7a;
+    background-image: linear-gradient(to bottom right, rgb(241,137,137),rgb(184,177,250));
+  
+    
+}
+
+.imagens{
+    width: 300px; /* largura*/
+    height: 200px; /* altura*/
+    border-radius: 8px;
     
     
 }
 
-.img-simpsons{
-    width: 200px; /* largura*/
-    height: 400px; /* altura*/
-    border-radius: 5px;
-    
-}
 
-
-/* mudanças de estado da pagina(hover:flutuar) */
 .card:hover{
     transform: translateY(-10px); /*muda o movimento quando passa o mouse (y pq muda na vertical)*/
-    background-color:  #d4cdc0; /*muda a cor quando passa o mouse*/
     cursor: pointer; /* muda o curso do mouse*/  
    
-}
-
-.card h2{
-    
-    text-align: center;
-    
-    
 }
 
